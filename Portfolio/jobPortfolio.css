@@ -1,0 +1,59 @@
+.header{            
+    height: 150px;
+    background-color: #b846466b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+body{
+    margin: 0px;
+    background-color: black;
+    background-image: url("./background.jpg");
+    font-family: system-ui;
+}
+h1,h3{
+    text-align: center;
+}
+h3{
+    margin-top: -10px;
+    font-weight: 500;
+    line-height: 0.8;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(207, 196, 196);
+}
+.about-me p{
+    text-align: center;
+    padding: 2% 14%;
+    font-size: 18px;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+    margin:0px;
+    margin-top: -5px;
+    margin-left: -30px;
+}
+li{
+    padding: 0px 15px;
+    
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    padding: 0% 14%;
+}
+.project{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 30px;
+}
