@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTG-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title> Quiz Game</title>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="startDiv" class="start-container">
+                <button id="start" class="btn" onclick="startbutton();">Start Quiz</button>
+            </div>
+            <div id = "quiz-rules" class="hide">
+                <h2> Please read the instructions :</h2>
+                <hr>
+                <ul>
+                    <li>You have only 15 seconds to answer the question </li>
+                    <li>You can't exist while you're playing</li>
+                    <li>Quiz results will be displayed at the end</li>
+                    <li>You can senlect answer only once</li>
+                    <li>You can't select answer once timer goes off</li>
+                </ul>
+                <button id="exit" class="btn" onclick="exitQuiz();">Exit Quiz</button>
+                <button id="continue" class="btn" onclick="startQuiz();">Continue</button>
+            </div>
+            
+            <div id="quiz" class="quiz-container hide" >
+                <div class="title">
+                    <h4>Quiz Application</h4>
+                    <div class="timer">
+                        <h4 class="time-left">Time left:</h4>
+                        <h4 class="time_sec">15</h4>
+                    </div>
+                    
+                </div>
+                <hr>
+                <div id="question-container">
+                    <h4>Question</h4>
+                </div>
+                <div id="answer-button" class="options">
+                    <button class="answer btn">Answer 1</button>
+                    <button class="answer btn">Answer 2</button>
+                    <button class="answer btn">Answer 3</button>
+                    <button class="answer btn">Answer 4</button>
+                </div>
+                <hr>
+                <div class="controls">
+                    <h4><span class="currentIndex"></span> of 4 Questions</h4>                    
+                    <button id="next" class="btn">Next</button>
+                </div>
+            </div>
+            <div id="results" class="hide">
+                <h3>Congratulations!!! </h3>
+                <h3>You got <span class="score">0</span> correct answers out 4 Questions</h3>
+                <div class="controls">
+                    <button id="exit" class="btn" onclick="exitQuiz();">Exit Quiz</button>
+                    <button id="retake" class="btn">Re-take Quiz</button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </body>
+</html>
