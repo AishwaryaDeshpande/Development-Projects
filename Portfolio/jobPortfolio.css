@@ -8,6 +8,28 @@
     position: sticky;
     top: 0px;
 }
+.hoverProject:hover{
+    opacity: 0;
+}
+.hoverProject p{
+    text-align: center;
+}
+
+.hoverProject{
+    transition: opacity 1s;
+    position: absolute;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font: 20px;
+    width: 265px;
+    background: #1b1919c4;
+    color: white;
+    overflow: hidden;
+}
+
 body{
     margin: 0px;
     background-color: black;
