@@ -1,0 +1,22 @@
+#back{
+    margin: 8px 0px 0px 24px;
+    height: 24px;    
+}
+.main-container{
+    display:  flex;
+}
+.left-part{
+    width: 20%;
+}
+.middle-part{
+    width: 60%;
+}
+.right-part{
+    width: 20%;
+}
+span.detailValues {
+    font-weight: 400;
+}
+svg.MuiSvgIcon-root-68:hover {
+    color: yellow;
+}

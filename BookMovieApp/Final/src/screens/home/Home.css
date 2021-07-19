@@ -1,0 +1,106 @@
+.sub_header{
+    background-color: #ff9999;
+    padding:8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+li.row-container {
+  height: 250px;
+  width: 16.6%;
+  list-style-type: none;
+}
+
+li{
+  list-style-type: none;
+}
+.grid-item{
+    height: 250px;
+}
+
+.grid-scrollMenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+
+}
+.grid-scrollMenu .col-6 {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    width: 25%;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.grid-scrollMenu::-webkit-scrollbar {
+  height: 15px;
+}
+
+.grid-scrollMenu::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.grid-scrollMenu::-webkit-scrollbar-thumb {
+  background: rgb(102, 99, 99); 
+  border-radius: 10px;
+}
+.main-container{
+  display: flex;
+  margin: 16px;
+}
+.released-movies{
+  width: 76%;
+}
+.released-movie{
+  margin: 10px;
+}
+
+.released-movies img {
+  height: 350px;
+  width: 240px;
+}
+
+.title, .release-date{
+  font-weight: 400;
+  margin: 5px 20px;
+  color: #eadddd;
+}
+
+.movie-details {
+  background-color: #080808d9;
+  bottom: 55px;
+  position: relative;
+  margin: 0px 5px;
+}
+
+p.release-date {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+form.subscriber-form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+form.subscriber-form > *{
+  margin :7px;
+
+}
+
+.filters {
+  border: 1px solid #cebfbf;
+  box-shadow: 2px 3px 6px #868686;
+  height: 420px;
+}
+
+.filter-title {
+  color: #8e8ed4;
+  font-size: 14px;
+  font-weight: 540;
+  margin-left: 6px;
+}

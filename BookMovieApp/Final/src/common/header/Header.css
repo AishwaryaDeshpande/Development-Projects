@@ -1,0 +1,53 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+#logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    float: left;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 8s linear infinite;
+}
+
+button.right{
+    float: right;
+    margin: 3px !important;
+}
+
+#LoginPopUp {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #decece;
+    outline: #fffffd solid 8px;
+
+}
+
+.MuiFormControl-root-225 {
+    margin: 10px !important;
+}
+
+.loginSubmit {
+    margin: 40px 20px 0px 20px !important;
+    left: 25%;
+}
