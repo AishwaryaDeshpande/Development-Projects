@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">                
+                <span>Cart</span>
+                <a href="file:///D:/FrontEndProjects/BookFilter/admin.html"><span>Add Book</span></a>
+                <span>Hello Aishwarya</span>
+            </div>
+            <div class="page-content">
+                <div class="filters">
+                    <h3>FILTER BY</h3>
+                    <div class="name-search">
+                        <h4>Name</h4>
+                        <input type="text" id="name" placeholder="Enter Book name" value="" />
+                    </div>
+                    <div class="brand-filter">
+                        <h4>Author</h4>
+                        <select>
+                            <option value="">Select Option</option>
+                            <option value="Amish">Amish</option>
+                            <option value="Dan Brown">Dan Brown</option>
+                            <option value="Agatha Christe">Agatha Christe</option>
+                        </select>                        
+                    </div>
+                    <div class="price-filter">
+                        <h4>Price</h4>
+                        <label>
+                            <input type="checkbox" name="price1" value="0"/><span>0 - 500</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="price2" value="1"/><span>500 - 1000</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="price3" value="2"/><span>1000+</span>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="book-list">
+                </div>
+            </div>
+            <div class="add-book">
+
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+.header{
+    width: 80%;
+    background-color: rgb(96, 96, 238);
+    margin: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    color:white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.header span {
+    padding: 10px;
+}
+.page-content{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.filters{
+    width: 23%;
+    padding-left: 40px;
+    margin: 5px;
+    box-shadow: 0 0 11px 6px hsl(0deg 2% 25% / 17%);
+    padding: 20px;
+    border-radius: 4px;
+    color: #908e8e;
+}
+.book-list {
+    width: 77%;
+    margin: 5px;
+    box-shadow: 0 0 11px 6px hsl(0deg 2% 25% / 17%);
+    border-radius: 4px;
+}
+
+.price-filter {
+    display: flex;
+    flex-direction: column;
+}
+.book-image img {
+    height: 179px;
+    width: 130px;
+}
+.book-image {
+    margin: 10px 0px;
+    width: 30%;
+    text-align: center;
+}
+.row {
+    display: flex;
+    box-shadow: 0 0 11px 6px hsl(0deg 2% 25% / 17%);
+    border-radius: 4px;
+}
+
+.book-content {
+    margin: auto;
+    font-size: 16px;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 0 0 11px 6px hsl(0deg 9% 89% / 17%);
+}
+.book-content span {
+    display: block;
+}
+
+span.bold {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.text-input{
+    display: block; 
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+a:hover{
+    background:rgb(111, 111, 194);
+}
